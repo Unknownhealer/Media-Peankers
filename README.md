@@ -1,4 +1,5 @@
 # Media-Peankers
+![UNO App Icon](icon.jpeg)
 # 🔊 Android Hidden Prank App
 
 A **savage prank Android app** that stays **invisible** after install,  
@@ -6,7 +7,6 @@ plays an unstoppable sound at **max volume**, and runs in the background even if
 Perfect for pranking friends in a harmless way! 😈  
 
 ---
-![UNO App Icon](icon.jpeg)
 
 ## 🤯 What It Does
 
