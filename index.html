@@ -115,10 +115,9 @@
   <!-- Share Text -->
   <div class="share-text">Share &gt;</div>
 
-  <!-- Social Share Icons -->
+  <!-- WhatsApp Share Icon -->
   <div class="social-icons">
     <img src="https://img.icons8.com/color/96/whatsapp.png" alt="Share on WhatsApp" onclick="shareWhatsApp()">
-    <img src="https://img.icons8.com/fluency/96/instagram-new.png" alt="Share on Instagram" onclick="shareInstagram()">
   </div>
 
   <!-- Footer -->
@@ -133,10 +132,6 @@ Install now: https://tinyurl.com/Uno-apk`);
     function shareWhatsApp() {
       window.open(`https://wa.me/?text=${shareMessage}`, '_blank');
     }
-
-    function shareInstagram() {
-      alert("Instagram doesn't allow direct text sharing from the web.\nYou can copy and share this:\n\n" + decodeURIComponent(shareMessage));
-    }
   </script>
 </body>
-    </html>
+</html>
