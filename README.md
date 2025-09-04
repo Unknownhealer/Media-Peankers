@@ -6,6 +6,7 @@ plays an unstoppable sound at **max volume**, and runs in the background even if
 Perfect for pranking friends in a harmless way! 😈  
 
 ---
+![UNO App Icon](icon.jpeg)
 
 ## 🤯 What It Does
 
