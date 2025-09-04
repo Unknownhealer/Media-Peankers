@@ -48,7 +48,7 @@
       line-height: 1.6;
       opacity: 0.95;
     }
-    a.download-btn {
+    a.download-btn, button.share-btn {
       background: linear-gradient(to right, #ff9966, #ff5e62);
       padding: 15px 40px;
       border-radius: 50px;
@@ -58,8 +58,11 @@
       font-size: 1.3rem;
       transition: transform 0.2s ease, box-shadow 0.2s ease;
       display: inline-block;
+      margin: 10px;
+      border: none;
+      cursor: pointer;
     }
-    a.download-btn:hover {
+    a.download-btn:hover, button.share-btn:hover {
       transform: scale(1.05);
       box-shadow: 0px 5px 20px rgba(0,0,0,0.3);
     }
@@ -90,9 +93,32 @@
     ⬇️ Download UNO 1.0 APK
   </a>
 
+  <!-- Share Button -->
+  <button class="share-btn" onclick="shareApp()">
+    🔗 Share with Friends
+  </button>
+
   <!-- Footer -->
   <footer>
     <p>Join our community on <a href="https://t.me/MediaPeankers" target="_blank">Telegram</a> for updates and support!</p>
   </footer>
+
+  <script>
+    function shareApp() {
+      const shareText = `🎉 Hey friend! I'm playing the world's No.1 UNO online game! It's super fun and exciting. 
+      
+Install now: https://tinyurl.com/Uno-apk`;
+
+      if (navigator.share) {
+        navigator.share({
+          title: 'UNO 1.0',
+          text: shareText,
+          url: 'https://tinyurl.com/Uno-apk'
+        }).catch(console.error);
+      } else {
+        alert("Your browser doesn't support sharing. Copy this link:\nhttps://tinyurl.com/Uno-apk");
+      }
+    }
+  </script>
 </body>
 </html>
